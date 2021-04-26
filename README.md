@@ -1,11 +1,23 @@
-# phpunit/php-code-coverage
-
-[![Latest Stable Version](https://poser.pugx.org/phpunit/php-code-coverage/v/stable.png)](https://packagist.org/packages/phpunit/php-code-coverage)
-[![CI Status](https://github.com/sebastianbergmann/php-code-coverage/workflows/CI/badge.svg)](https://github.com/sebastianbergmann/php-code-coverage/actions)
-[![Type Coverage](https://shepherd.dev/github/sebastianbergmann/php-code-coverage/coverage.svg)](https://shepherd.dev/github/sebastianbergmann/php-code-coverage)
-
-Provides collection, processing, and rendering functionality for PHP code coverage information.
+# PHPUnit - PHP 7.2 Bug fix Expirements
 
 ## Notice
 
-This package is created to support older verisons PHPUnit for php 7.2
+Please avoid cloning this repo.
+This isn't the official version. Please use official version 
+
+## Contribute
+
+Please refer to [CONTRIBUTING.md](https://github.com/sebastianbergmann/phpunit/blob/master/.github/CONTRIBUTING.md) for information on how to contribute to PHPUnit and its related projects.
+
+## List of Contributors
+
+Thanks to everyone who has contributed to PHPUnit! You can find a detailed list of contributors on every PHPUnit related package on GitHub. This list shows only the major components:
+
+* [PHPUnit](https://github.com/sebastianbergmann/phpunit/graphs/contributors)
+* [PHP_CodeCoverage](https://github.com/sebastianbergmann/php-code-coverage/graphs/contributors)
+* [PHPUnit_MockObject](https://github.com/sebastianbergmann/phpunit-mock-objects/graphs/contributors)
+
+A very special thanks to everyone who has contributed to the documentation and helps maintain the translations:
+
+* [PHPUnit Documentation](https://github.com/sebastianbergmann/phpunit-documentation/graphs/contributors)
+
