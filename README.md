@@ -6,6 +6,6 @@
 
 Provides collection, processing, and rendering functionality for PHP code coverage information.
 
-## Installation
+## Notice
 
 This package is created to support older verisons PHPUnit for php 7.2
