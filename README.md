@@ -8,41 +8,4 @@ Provides collection, processing, and rendering functionality for PHP code covera
 
 ## Installation
 
-You can add this library as a local, per-project dependency to your project using [Composer](https://getcomposer.org/):
-
-```
-composer require phpunit/php-code-coverage
-```
-
-If you only need this library during development, for instance to run your project's test suite, then you should add it as a development-time dependency:
-
-```
-composer require --dev phpunit/php-code-coverage
-```
-
-## Usage
-
-```php
-<?php declare(strict_types=1);
-use SebastianBergmann\CodeCoverage\Filter;
-use SebastianBergmann\CodeCoverage\Driver\Selector;
-use SebastianBergmann\CodeCoverage\CodeCoverage;
-use SebastianBergmann\CodeCoverage\Report\Html\Facade as HtmlReport;
-
-$filter = new Filter;
-$filter->includeDirectory('/path/to/directory');
-
-$coverage = new CodeCoverage(
-    (new Selector)->forLineCoverage($filter),
-    $filter
-);
-
-$coverage->start('<name of test>');
-
-// ...
-
-$coverage->stop();
-
-
-(new HtmlReport)->process($coverage, '/tmp/code-coverage-report');
-```
+This package is created to support older verisons PHPUnit for php 7.2
